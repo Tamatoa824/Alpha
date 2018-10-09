@@ -1,0 +1,14 @@
+body {
+}
+
+
+#firstHeading {
+    color: blue;
+}
+
+.imgOne {
+    height: 0px;
+    min-width: 100px;
+    max-width: 500px;
+    position: fixed;
+}
