@@ -7,8 +7,7 @@ body {
 }
 
 .imgOne {
-    height: 0px;
-    min-width: 100px;
-    max-width: 500px;
+    height: 10%;
+    width: 50%;
     position: fixed;
 }
