@@ -5,6 +5,7 @@ body {
 
 .grid{
     display: grid;
+    border: 5px black solid;
     height: 20%;
     width: 100%;
     grid-template: 100% / repeat(5,20%);
