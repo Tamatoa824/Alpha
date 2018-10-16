@@ -11,11 +11,11 @@
     padding: 15px;
     border: 1px solid red;
     width: 8.33%;
+    height: 20%;
 }
 
 html{
     font-family: "Lucida Sans Unicode", sans-serif;
-    background-color: black;
 }
 .header{
     background-color: #9933cc;
