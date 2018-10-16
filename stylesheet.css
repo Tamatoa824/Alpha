@@ -1,56 +1,17 @@
 *{
     box-sizing: border-box;
 }
-.grid-container::after {
+.row::after {
     content: "";
     clear: both;
     display: table;
 }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
 
-.grid-container {
-    display: grid;
-    padding: 15px;
-    border: 1px solid red;
-    grid-template-areas: 'LftBan LftBan LftBan LftBan Phoenix Phoenix RgtBan RgtBan RgtBan RgtBan' 
-                         'TitleEng TitleEng TitleEng TitleEng TitleEng TitleEng TitleEng TitleEng TitleEng TitleEng' 
-                         'TitleMaori TitleMaori TitleMaori TitleMaori TitleMaori TitleMaori TitleMaori TitleMaori TitleMaori TitleMaori'
-                         'services services gallery gallery testimonials testimonials profiles profiles contact contact'
-}
-.item1{
-    grid-area: LftBan;
-}
-.item2{
-    grid-area: Phoenix;
-}
-.item3{
-    grid-area: RgtBan;
-}
-.item4{
-    grid-area: TitleEng;
-}
-.item5{
-    grid-area: TitleMaori;
-}
-.item6{
-    grid-area: services;
-}
-.item7 {
-    grid-area: gallery;
-}
-.item8 {
-    grid-area: testimonials;
-}
-.item9 {
-    grid-area: profiles;
-}
-.item10 {
-    grid-area: contact;
-}
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    font-size: 30px;
-}
 html{
     font-family: "Lucida Sans Unicode", sans-serif;
 }
