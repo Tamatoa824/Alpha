@@ -1,10 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     height: 10%;
     position: fixed;
 }
 
 .grid{
-    box-sizing: border-box;
     display: grid;
     border: 5px black solid;
     height: 20%;
@@ -14,7 +17,6 @@ body {
 }
 
 .box {
-    box-sizing: border-box;
     background-color: beige;
     color: black;
     border-radius: 5px;
