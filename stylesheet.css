@@ -12,15 +12,15 @@
     padding: 5px;
     height: auto;
 }
-.TitleEng {
+.TitleEng, .TitleMaori{
     font-family:Georgia;
-    font-size:440px;
+    font-size:440vw;
     font-weight: 700;
     text-align: center;
 }
-.TitleMaori {
+.TitleEng {
     font-family: Georgia;
-    font-size: 240px;
+    font-size: 240vw;
     text-align: center;
 } 
 
