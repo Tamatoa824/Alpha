@@ -9,9 +9,8 @@
 .column {
     float: left;
     padding: 5px;
-    height: auto;
+    height: 10%;
     width:100%;
-    max-width: 100%;
 }
 
 html{
