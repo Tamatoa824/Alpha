@@ -8,9 +8,14 @@
 }
 .bannerColumn {
     float: left;
+    width: 33.33%;
     padding: 5px;
+<<<<<<< HEAD
     height: auto;
    
+=======
+    
+>>>>>>> parent of 7a19101... hi
 }
 
 html{
