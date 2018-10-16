@@ -14,12 +14,14 @@
 }
 .TitleEng {
     font-family:Georgia;
-    font-size:240px;
+    font-size:440px;
     font-weight: 700;
+    text-align: center;
 }
 .TitleMaori {
     font-family: Georgia;
     font-size: 240px;
+    text-align: center;
 } 
 
 html {
