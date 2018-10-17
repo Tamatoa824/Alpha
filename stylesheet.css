@@ -20,22 +20,8 @@
     width: 100%;
     height: auto;
 }
-.TitleEng {
-    font-size: 440px;
-    font-weight: 700;
-} 
-.TitleMaori{
-    font-size:220px;
-}
-@media screen and (max-width: 900px) {
-    div.TitleEng {
-        font-size: 80px;
-    }
 
-    div.TitleMaori {
-        font-size: 50px;
-    }
-}
+
 html {
     font-family: "Lucida Sans Unicode", sans-serif;
 }
