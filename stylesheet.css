@@ -27,6 +27,15 @@
 .TitleMaori{
     font-size:220px;
 }
+@media screen and (max-width: 900px) {
+    .TitleEng {
+        font-size: 80px;
+    }
+
+    .TitleMaori {
+        font-size: 50px;
+    }
+}
 html {
     font-family: "Lucida Sans Unicode", sans-serif;
 }
