@@ -21,10 +21,10 @@
 }
 @media screen and (min-width:1281px) {
     .TitleEng {
-        font-size: 440px;
+        font-size: 100px;
     }
     .TitleMaori {
-        font-size: 220px;
+        font-size: 50px;
     }
 }
 html {
