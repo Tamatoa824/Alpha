@@ -13,8 +13,10 @@
     height: auto;
 }
 .TitleEng, .TitleMaori{
+    display: grid;
     font-family:Georgia;
     text-align: center;
+    border: solid 5px red;
 }
 .TitleEng {
     font-size: 440px;
@@ -22,14 +24,6 @@
 } 
 .TitleMaori{
     font-size:220px;
-}
-@media screen and (max-width: 600px){
-    .TitleEng{
-        font-size: 100px;
-    }
-    .TitleMaori{
-        font-size: 80px;
-    }
 }
 html {
     font-family: "Lucida Sans Unicode", sans-serif;
