@@ -20,7 +20,9 @@
     width: 100%;
     height: auto;
 }
-
+.TitleEng{
+    font-weight: 700;
+}
 
 html {
     font-family: "Lucida Sans Unicode", sans-serif;
