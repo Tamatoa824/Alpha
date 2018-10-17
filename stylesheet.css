@@ -12,6 +12,15 @@
     padding: 5px;
     height: auto;
 }
+.patikiLft{
+    width:33.33%
+}
+.phoenix {
+    width: 33.33%
+}
+.patikiRght {
+    width: 33.33%
+}
 .TitleEng, .TitleMaori{
     font-family:Georgia;
     text-align: center;
