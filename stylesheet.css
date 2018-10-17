@@ -13,12 +13,8 @@
     height: auto;
 }
 .TitleEng, .TitleMaori{
-    display: grid;
     font-family:Georgia;
     text-align: center;
-    border: solid 5px red;
-    width: 100%;
-    height: auto;
 }
 .TitleEng{
     font-weight: 700;
