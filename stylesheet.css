@@ -11,6 +11,7 @@
     width: 100%;
     padding: 5px;
     height: auto;
+    border: 5px solid red;
 }
 .patikiLft, .patikiRght {
     width: 33.33%;
@@ -22,9 +23,10 @@
     float: left;
 }
 
-.TitleEng, .TitleMaori{
-    font-family:Georgia;
+.TitleEng, .TitleMaori {
+    font-family: Georgia;
     text-align: center;
+    border: 5px solid red;
 }
 .TitleEng{
     font-weight: 700;
