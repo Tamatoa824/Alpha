@@ -27,7 +27,7 @@ html {
 .TitleEng{
     font-weight: 700;
 }
-@media screen and (min-width:1281px) {
+@media screen and (max-width:375px) {
     .TitleEng {
         font-size: 100px;
     }
