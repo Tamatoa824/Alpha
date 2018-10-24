@@ -23,7 +23,7 @@ html {
     border: 1px solid red;
 }
 .TitleMaori {
-    line-height: 0.1;
+    line-height: -0.1;
 }
 /* Add a black background color to the top navigation */
 .topnav {
