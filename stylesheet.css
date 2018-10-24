@@ -24,18 +24,7 @@ html {
     text-align: center;
     border: 5px solid red;
 }
-.TitleEng{
-    font-weight: 700;
-}
-@media screen and (max-width:375px) {
-    .TitleEng {
-        font-size: 100px;
-    }
 
-    .TitleMaori {
-        font-size: 50px;
-    }
-}
 /* Add a black background color to the top navigation */
 .topnav {
     float:none;
