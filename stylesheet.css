@@ -15,7 +15,7 @@ html {
 .banner {
     float: left;
     width: 100%;
-    height: 0;
+    height: 1;
 }
 .TitleEng, .TitleMaori {
     font-family: Georgia;
