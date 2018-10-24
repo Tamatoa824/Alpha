@@ -23,6 +23,7 @@ html {
 .TitleEng, .TitleMaori {
     font-family: Georgia;
     text-align: center;
+    color: white;
 }
 .TitleEng{
     line-height: 0.6;
