@@ -22,6 +22,9 @@ html {
     text-align: center;
     border: 1px solid red;
 }
+.TitleEng{
+    line-height: 0.9;
+}
 .TitleMaori {
     line-height: 0.1;
 }
