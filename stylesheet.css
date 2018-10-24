@@ -15,12 +15,10 @@ html {
 .banner {
     float:left;
     width: 100%;
-    border: 1px solid red;
 }
 .TitleEng, .TitleMaori {
     font-family: Georgia;
     text-align: center;
-    border: 1px solid red;
 }
 .TitleEng{
     line-height: 0.6;
