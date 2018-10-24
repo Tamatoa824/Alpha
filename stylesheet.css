@@ -6,6 +6,9 @@ html {
     font-family: "Lucida Sans Unicode", sans-serif;
 }
 
+.introduction{
+    background-color: black;
+}
 .introduction::after {
     content: "";
     clear: both;
