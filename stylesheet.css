@@ -7,7 +7,6 @@
     display: table;
 }
 .bannerColumn {
-    object-fit:scale-down;
     float: left;
     width: 100%;
     padding: 5px;
