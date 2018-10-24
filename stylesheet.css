@@ -6,7 +6,7 @@ html {
     font-family: "Lucida Sans Unicode", sans-serif;
 }
 
-.row::after {
+.introduction::after {
     content: "";
     clear: both;
     display: table;
@@ -15,6 +15,7 @@ html {
 .banner {
     float:left;
     width: 100%;
+    height:auto;
 }
 .TitleEng, .TitleMaori {
     font-family: Georgia;
