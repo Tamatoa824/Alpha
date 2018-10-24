@@ -21,7 +21,7 @@ html {
     font-family: Georgia;
     text-align: center;
     border: 1px solid red;
-    line-height: 1;
+    line-height: 0.8;
 }
 
 /* Add a black background color to the top navigation */
