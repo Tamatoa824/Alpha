@@ -20,6 +20,7 @@ html {
 .TitleEng, .TitleMaori {
     font-family: Georgia;
     text-align: center;
+    border: 1px solid red;
 }
 
 /* Add a black background color to the top navigation */
