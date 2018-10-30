@@ -12,11 +12,11 @@ html {
     bottom: 20px;
 }
 
-    .introduction::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
+.introduction::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 .banner {
     float: left;
@@ -46,27 +46,27 @@ html {
     text-align: center;
 }
 
-    /* Style the links inside the navigation bar */
-    .topnav a {
-        float: none;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 22px;
-    }
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
 
-        /* Change the color of links on hover */
-        .topnav a:hover {
-            background-color: white;
-            color: black;
-        }
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
 
-        /* Add a color to the active/current link */
-        .topnav a.active {
-            background-color: black;
-            color: white;
-        }
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
 
 @media screen and (max-width: 600px) {
     .topnav a {
