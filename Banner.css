@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lucida Sans Unicode", sans-serif;
+}
+
+.introduction {
+    background-color: black;
+}
+
+    .introduction::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.banner {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.TitleEng, .TitleMaori {
+    font-family: Georgia;
+    text-align: center;
+    color: white;
+}
+
+.TitleEng {
+    line-height: 0.8;
+}
+
+.TitleMaori {
+    line-height: 0.1;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    float: none;
+    width: 100%;
+    background-color: #8b7425;
+    overflow: hidden;
+    text-align: center;
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: none;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 22px;
+    }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: black;
+            color: white;
+        }
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: left;
+    }
+}
