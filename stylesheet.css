@@ -19,8 +19,7 @@ html {
     float:left;
     width: 100%;
     height:auto;
-    position: relative;
-    bottom: 35px;
+    
 }
 .TitleEng, .TitleMaori {
     font-family: Georgia;
