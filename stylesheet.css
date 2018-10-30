@@ -20,7 +20,7 @@ html {
     width: 100%;
     height:auto;
     position: relative;
-    bottom: 5px;
+    bottom: 10px;
 }
 .TitleEng, .TitleMaori {
     font-family: Georgia;
