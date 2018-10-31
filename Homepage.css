@@ -8,8 +8,6 @@
 
 /* Slideshow container */
 .slideshow-container {
-    display: inline-block;
-    vertical-align: middle;
     border: 5px solid white;
     width: 1024px;
     height: 768px;
@@ -20,6 +18,16 @@
 /* Hide the images by default */
 .mySlides {
     display: none;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 /* The dots/bullets/indicators */
