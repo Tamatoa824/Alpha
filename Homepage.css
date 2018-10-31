@@ -13,7 +13,6 @@
     height: 768px;
     position: relative;
     margin: auto;
-    transform:translateX(-50);
 }
 
 /* Hide the images by default */
