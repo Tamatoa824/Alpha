@@ -8,8 +8,8 @@
 /* Slideshow container */
 .slideshow-container {
     width: 750px;
-    /*position: relative;
-    margin: auto;*/
+    position: relative;
+    margin: auto;
 }
 
 /* Hide the images by default */
