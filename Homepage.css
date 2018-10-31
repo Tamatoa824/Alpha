@@ -8,9 +8,11 @@
 
 /* Slideshow container */
 .slideshow-container {
+    display:inline-block;
+    vertical-align: middle;
     border: 5px solid white;
     width: 1024px;
-    height: 1230px;
+    height: 768;
     position: relative;
     margin: auto;
 }
