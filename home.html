@@ -223,24 +223,24 @@
         </div>
     </div>   
     <script>
-        var slideIndex = [1, 1];
+        var slideIndexBot = [1, 1];
         var slideId = ["venue", "venue1"]
-        showSlides(1, 0);
-        showSlides(1, 1);
+        showSlidesBot(1, 0);
+        showSlidesBot(1, 1);
 
         function plusSlides(n, no) {
-            showSlides(slideIndex[no] += n, no);
+            showSlidesBot(slideIndex[no] += n, no);
         }
 
-        function showSlides(n, no) {
+        function showSlidesBot(n, no) {
             var i;
             var x = document.getElementsByClassName(slideId[no]);
-            if (n > x.length) { slideIndex[no] = 1 }
-            if (n < 1) { slideIndex[no] = x.length }
+            if (n > x.length) { slideIndexBot[no] = 1 }
+            if (n < 1) { slideIndexBot[no] = x.length }
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
-            x[slideIndex[no] - 1].style.display = "block";
+            x[slideIndexBot[no] - 1].style.display = "block";
         }
     </script>
    
