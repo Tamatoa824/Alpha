@@ -73,3 +73,14 @@ html {
         float: left;
     }
 }
+
+.hospobanner::after{
+    content: "";
+    clear: both;
+    display:table;
+}
+
+.column{
+    float:left;
+    width: 33.33%;
+}
