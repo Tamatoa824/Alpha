@@ -83,6 +83,7 @@ html {
 .column{
     float:left;
     width: 33.33%;
+    height: 50px;
 }
 /* Hide the images by default */
 .venue, venue1 {
