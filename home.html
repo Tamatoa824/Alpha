@@ -120,23 +120,44 @@
     </div>
     <!--Main slideshow script-->
     <script>
-        var slideIndex = 0;
-        showSlides();
+        var slideIndex2 = 0;
+        showSlides2();
 
-        function showSlides() {
+        function showSlides2() {
             var i;
             var slides = document.getElementsByClassName("venue");
             var dots = document.getElementsByClassName("dot");
             for (i = 0; i < slides.length; i++) {
                 slides[i].style.display = "none";
             }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
+            slideIndex2++;
+            if (slideIndex2 > slides.length) { slideIndex2 = 1 }
             for (i = 0; i < dots.length; i++) {
                 dots[i].className = dots[i].className.replace(" active", "");
             }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
+            slides[slideIndex2 - 1].style.display = "block";
+            dots[slideIndex2 - 1].className += " active";
+            setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+    </script>
+    <script>
+        var slideIndex3 = 0;
+        showSlides3();
+
+        function showSlides3() {
+            var i;
+            var slides = document.getElementsByClassName("venue1");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex3++;
+            if (slideIndex3 > slides.length) { slideIndex3 = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex3 - 1].style.display = "block";
+            dots[slideIndex3 - 1].className += " active";
             setTimeout(showSlides, 4000); // Change image every 4 seconds
         }
     </script>
@@ -192,52 +213,52 @@
             <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/Hospo.jpg" alt="Hospitality member since 2016" style="width:100%; height:auto">
         </div>
         <div class="column">
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/foundry.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/shilling.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/larcomb.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/ucsa.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/craic.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/belgian.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/bluesmoke.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/goodhomepegasus.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/harewood.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/protocol.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/rockstar.png" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/tannery.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/strawberrytree.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/vesuvio.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/rowdykitchen.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
-            <div class="venue fade">
+            <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/halo.jpg" style="max-height: 100%; max-width: 100%; width: auto; height: auto">
             </div>
 
