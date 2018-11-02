@@ -10,44 +10,9 @@
 
 </head>
 <body class="introduction">
-    <!--Main slideshow script-->
-    <script>
-        var slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            setTimeout(showSlides, 4000); // Change image every 4 seconds
-        }
-    </script>
-    <!--Facebook plugins script-->
-    <script>
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
     <a name="top"></a>
     <div class="banner">
         <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/TopBanner.PNG" alt="patiki" style="width:100%;height:10%"/>
-        <!--<div class="patikiLft"> <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/patikiLft.png" alt="patiki" /> </div>
-        <div class="phoenix"> <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/Phoenix.png" alt="phoenix" /> </div> 
-        <div class="patikiRght"> <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/patikiRght.png" alt="patiki" /> </div>   --> 
     </div>
     <div class="TitleEng"><h1 style="font-size:4vw;">Alpha Protection Services Limited</h1></div>
     <div class="TitleMaori"><h1 style="font-size:2vw;">Ngaa ratonga whakahaumaru a Aarepa</h1></div>
@@ -61,6 +26,7 @@
             <a href="#contact">Contact</a>
         </div>  
     </nav>
+
     <div class="BusinessStatement">
         Alpha Protection services provides a customer service based security approach tailored to your business needs. All our operators are specifically trained by prominent executive security professionals to ensure a consistent high level of service is provided across all operational deployments.
     </div>
@@ -104,15 +70,51 @@
         <span class="dot" onclick="currentSlide(5)"></span>
         <span class="dot" onclick="currentSlide(6)"></span>
     </div>
-   
+    <!--Main slideshow script-->
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+    </script>
+
     <hr style="border:2px solid #8b7425; width:50%;" />
-   
+
+    <!--Facebook plug ins script-->
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
     <div class="BusinessStatement">
         For regular updates and to see what the Alpha team are currently doing <p class="fb-like" data-href="https://www.facebook.com/alphaprotectionservices/?ref=br_rs" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="true"></p><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Falphaprotectionservices%2F%3Fref%3Dbr_rs&width=96&layout=button&action=like&size=small&show_faces=false&share=true&height=65&appId" width="96" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> our facebook page.
     </div>
     <div id="fb-root"></div>
+
     <div class="fb-page" data-href="https://www.facebook.com/alphaprotectionservices/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/alphaprotectionservices/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/alphaprotectionservices/">Alpha Protection Services</a></blockquote>
     </div>
+
     <div>
         <center><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Falphaprotectionservices%2F&tabs&width=440&height=254&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="440" height="254" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></center>
     </div>
@@ -120,8 +122,10 @@
     <div class="hospo">
         <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/Hospo.jpg" alt="Hospitality member since 2016" style="width:60%; height:10vw; display:block; margin-left:auto; margin-right:auto">
     </div>
+
     <div class="botBanner">
         <img href="#top" src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/BotBanner.PNG" style="width:100%">
     </div>
+
 </body>
 </html>
