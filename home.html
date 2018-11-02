@@ -118,49 +118,29 @@
     <div>
         <center><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Falphaprotectionservices%2F&tabs&width=440&height=254&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="440" height="254" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></center>
     </div>
-    <!--Main slideshow script-->
-    <script>
-        var slideIndex2 = 0;
-        showSlides2();
 
-        function showSlides2() {
+    <script>
+        var slideIndex = [1, 1];
+        var slideId = ["venue", "venue1"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+
+        function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+        }
+
+        function showSlides(n, no) {
             var i;
-            var slides = document.getElementsByClassName("venue");
-            var dots = document.getElementsByClassName("dot2");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+            var x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) { slideIndex[no] = 1 }
+            if (n < 1) { slideIndex[no] = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
             }
-            slideIndex2++;
-            if (slideIndex2 > slides.length) { slideIndex2 = 1 }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex2 - 1].style.display = "block";
-            dots[slideIndex2 - 1].className += " active";
-            setTimeout(showSlides, 4000); // Change image every 4 seconds
+            x[slideIndex[no] - 1].style.display = "block";
         }
     </script>
-    <script>
-        var slideIndex3 = 0;
-        showSlides3();
 
-        function showSlides3() {
-            var i;
-            var slides = document.getElementsByClassName("venue1");
-            var dots = document.getElementsByClassName("dot2");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex3++;
-            if (slideIndex3 > slides.length) { slideIndex3 = 1 }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex3 - 1].style.display = "block";
-            dots[slideIndex3 - 1].className += " active";
-            setTimeout(showSlides, 4000); // Change image every 4 seconds
-        }
-    </script>
     <div class="hospobanner">
         <div class="column">
             <div class="venue fade">
