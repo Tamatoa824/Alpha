@@ -5,14 +5,14 @@
     color: white;
     margin: auto;
     width: 50%;
+    float: left;
 }
 
 /* Slideshow container */
 .slideshow-container {
     width: 50%;
-    height: 768px;
     position: relative;
-    
+    float: left;
 }
 
 /* Hide the images by default */
