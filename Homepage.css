@@ -10,8 +10,10 @@
 }
 
 /* Slideshow container */
-.opening{
-    width:100%;
+.opening::after {
+    content:"";
+    clear:right;
+    display:table;
 }
 
 /* Hide the images by default */
