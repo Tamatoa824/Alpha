@@ -12,7 +12,7 @@
 .slideshow-container {
     width: 50%;
     position: relative;
-    height: 10%;
+    height: 500px;
     float: right;
     border: 5px solid white;
 }
