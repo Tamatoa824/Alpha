@@ -11,8 +11,9 @@
 
 /* Slideshow container */
 .slideshow-container {
-    width: 100%;
+    width: 50%;
     position: relative;
+    height: 768px;
 }
 
 /* Hide the images by default */
