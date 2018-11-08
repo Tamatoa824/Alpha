@@ -10,10 +10,8 @@
 }
 
 /* Slideshow container */
-.opening::after {
-    content:"";
-    clear:both;
-    display:table;
+.opening{
+    width:100%;
 }
 
 /* Hide the images by default */
