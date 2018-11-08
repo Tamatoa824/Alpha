@@ -1,9 +1,10 @@
 /* Banner styling ends, home content begins*/
-
+.opening{
+    width:100%;
+    position: relative;
+}
 .BusinessStatement{
-    padding: 5% 10%;
     color: white;
-    margin: auto;
     width: 50%;
     float: left;
 }
