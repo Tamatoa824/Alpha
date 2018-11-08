@@ -37,6 +37,12 @@
         background-color: #717171;
     }
 
+facebook{
+    color:white;
+    width: 100%;
+    position: relative;
+}
+
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
