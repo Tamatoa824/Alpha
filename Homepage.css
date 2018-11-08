@@ -3,18 +3,17 @@
     width:100%;
     position: relative;
 }
-.BusinessStatement{
+.open{
     color: white;
     width: 50%;
     float: left;
 }
 
 /* Slideshow container */
-.slideshow-container {
-    width: 50%;
-    position: relative;
-    height: 768px;
-    float: left;
+.opening::after {
+    content:"";
+    clear:both;
+    display:table;
 }
 
 /* Hide the images by default */
