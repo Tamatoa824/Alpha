@@ -4,11 +4,12 @@
     padding: 5% 10%;
     color: white;
     margin: auto;
+    width: 50%;
 }
 
 /* Slideshow container */
 .slideshow-container {
-    width: 100%;
+    width: 50%;
     height: 768px;
     position: relative;
     
