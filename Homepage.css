@@ -1,21 +1,18 @@
 /* Banner styling ends, home content begins*/
-.opening{
-    width:100%;
-    position: relative;
-}
+
 .open{
     color: white;
     width: 50%;
-    float: right;
-    overflow: auto;
-    
+    float: left;
+    height: 768px;
 }
 
 /* Slideshow container */
-.opening::after {
-    content:"";
-    clear:both;
-    display:table;
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    height: 768px;
+    float:right;
 }
 
 /* Hide the images by default */
