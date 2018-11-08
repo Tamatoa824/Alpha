@@ -4,11 +4,12 @@
     color: white;
     width: 50%;
     float: left;
+    height: 768px;
 }
 
 /* Slideshow container */
 .slideshow-container {
-    width: 100%;
+    width: 50%;
     position: relative;
     height: 768px;
     float:right;
