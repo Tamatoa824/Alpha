@@ -1,12 +1,12 @@
 /* Banner styling ends, home content begins*/
 
 .open{
-    display:table;
+    
     color: white;
     width: 50%;
     float: left;
     height: 500px;
-    vertical-align:middle;
+    padding: 200px 0;
 }
 
 /* Slideshow container */
