@@ -6,11 +6,12 @@
     width: 50%;
     float: left;
     height: 500px;
-    padding: 200px 0;
+    padding: 250px 0;
 }
 
 /* Slideshow container */
 .slideshow-container {
+    padding: 50px;
     width: 50%;
     position: relative;
     height: 500px;
