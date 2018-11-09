@@ -1,7 +1,7 @@
 /* Banner styling ends, home content begins*/
 
 .open{
-    display:table-cell;
+    display:table;
     color: white;
     width: 50%;
     float: left;
