@@ -1,11 +1,12 @@
 /* Banner styling ends, home content begins*/
 
 .open{
+    display:table-cell;
     color: white;
     width: 50%;
     float: left;
     height: 500px;
-    line-height:250px;
+    vertical-align:middle;
 }
 
 /* Slideshow container */
