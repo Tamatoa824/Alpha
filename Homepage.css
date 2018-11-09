@@ -1,5 +1,7 @@
 /* Banner styling ends, home content begins*/
-
+*{
+    box-sizing:border-box;
+}
 .open{
     
     color: white;
@@ -11,7 +13,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-    padding: 100px 0;
+    padding: 50px 0;
     width: 50%;
     position: relative;
     height: 500px;
