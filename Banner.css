@@ -85,7 +85,7 @@ html {
     border: 2px solid red;
     float:left;
     width: 33.33%;
-    height: 250px;
+    height: 75%;
 }
 /* Hide the images by default */
 .venue, venue1 {
