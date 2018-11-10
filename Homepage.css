@@ -17,7 +17,7 @@
     position: relative;
     height: 500px;
     float: right;
-    
+    margin: auto;
 }
 
 /* Hide the images by default */
