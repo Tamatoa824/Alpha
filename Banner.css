@@ -76,12 +76,12 @@ html {
 
 .hospobanner {
     border: 2px solid green;
-    display:flex;
+    width:100%;
 }
 
 .column{
     border: 2px solid red;
-    flex: 33.33%;
+    width: 33.33%;
     
 }
 /* Hide the images by default */
