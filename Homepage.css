@@ -12,10 +12,11 @@
 
 /* Slideshow container */
 .slideshow-container {
+    border: 5px solid white;
     width: 100%;
     position: relative;
     height: 500px;
-    margin: 0 auto;
+    margin: auto;
     
 }
 
