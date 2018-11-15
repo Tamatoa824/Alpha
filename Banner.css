@@ -84,6 +84,7 @@ html {
     border: 2px solid red;
     float:left;
     width: 33.33%;
+    height: 150px;
     
 }
 /* Hide the images by default */
