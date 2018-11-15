@@ -158,12 +158,64 @@
             <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/Hospo.jpg" alt="Hospitality member since 2016" style="width:100%; height:50%">
         </div>
         <div class="column">
-            <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/foundry.jpg" style="width: 100%; height: 100%;">
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/foundry.jpg" style="max-height: 100%; max-width: 33%%; width: auto; height: auto; position: absolute; margin: auto; padding:0">
+            </div>
+            <div class="venue1 fade">
+            <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/shilling.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/larcomb.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/ucsa.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/craic.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/belgian.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/bluesmoke.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/goodhomepegasus.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/harewood.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/protocol.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/rockstar.png" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/tannery.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/strawberrytree.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/vesuvio.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/rowdykitchen.jpg" style="height: 100%; width: 100%">
+            </div>
+            <div class="venue1 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/halo.jpg" style="height: 100%; width: 100%">
+            </div>
+
         </div>
     </div>   
     <script>
         var slideIndex2 = 0;
+        var slideIndex3 = 0;
         showSlides2();
+        showSlides3();
+
+
 
         function showSlides2() {
             var j;
@@ -175,6 +227,18 @@
             if (slideIndex2 > slides2.length) { slideIndex2 = 1 }
             slides2[slideIndex2 - 1].style.display = "block";
             setTimeout(showSlides2, 4000); // Change image every 4 seconds
+        }
+
+        function showSlides3() {
+            var k;
+            var slides3 = document.getElementsByClassName("venue1");
+            for (k = 0; k < slides3.length; k++) {
+                slides3[k].style.display = "none";
+            }
+            slideIndex3++;
+            if (slideIndex3 > slides3.length) { slideIndex3 = 1 }
+            slides3[slideIndex3 - 1].style.display = "block";
+            setTimeout(showSlides3, 4000); // Change image every 4 seconds
         }
     </script>
    

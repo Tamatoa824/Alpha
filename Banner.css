@@ -86,7 +86,7 @@ html {
     
 }
 /* Hide the images by default */
-.venue {
+.venue,venue1 {
     display: none;
 }
 
