@@ -74,9 +74,10 @@ html {
     }
 }
 
-.hospobanner {
-    border: 2px solid green;
-    width:100%;
+.hospobanner::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .column{
