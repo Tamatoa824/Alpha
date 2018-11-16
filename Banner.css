@@ -6,6 +6,9 @@ html {
     font-family: "Lucida Sans Unicode", sans-serif;
 }
 
+body {
+    border: 2px solid #8b7425;
+}
 .introduction {
     background-color: black;
     position: relative;
