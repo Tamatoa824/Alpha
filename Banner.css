@@ -13,6 +13,7 @@ body {
     background-color: black;
     position: relative;
     bottom: 20px;
+    margin:auto;
 }
 
 .introduction::after {
