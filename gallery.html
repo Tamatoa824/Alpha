@@ -29,41 +29,21 @@
     </nav>
     
     <!-- Differing code for each page goes here-->
-    <div class="carousel-wrapper">
-        <div data-jcarousel="true" data-wrap="circular" class="carousel">
-            <ul>
-                <li><img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/gallery/aikmans1.jpg" width="600" height="400" alt=""></li>
-                <li><img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/gallery/aikmans2.jpg." width="600" height="400" alt=""></li>
-                <li><img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/gallery/aikmans3.jpg" width="600" height="400" alt=""></li>             
-                <li><img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/gallery/aikmans4.jpg" width="600" height="400" alt=""></li>               
-                <li><img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/gallery/aikmans5.jpg" width="600" height="400" alt=""></li>              
-                <li><img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/gallery/aikmans6.jpg" width="600" height="400" alt=""></li>                
-            </ul>           
-        </div>        
-        <a data-jcarousel-control="true" data-target="-=1" href="#" class="carousel-control-prev">&lsaquo;</a>       
-        <a data-jcarousel-control="true" data-target="+=1" href="#" class="carousel-control-next">&rsaquo;</a>       
+    <div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-holder">
+            <img src="gallery/aikmans1.jpg" class="slider-image" />
+            <img src="gallery/aikmans2.jpg" class="slider-image" />
+            <img src="gallery/aikmans3.jpg" class="slider-image" />
+        </div>
+        <div class="button-holder">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+        </div>
     </div>
-    <script src="jquery.min.js"></script>
-    <script src="dist/jquery.jcarousel.min.js"></script>
-    <script src="dist/jquery.jcarousel-autoscroll.min.js"></script>
-    <script src="dist/jquery.jcarousel-control.min.js"></script>
-    <script src="dist/jquery.jcarousel-pagination.min.js"></script>
-    <script src="dist/jquery.jcarousel-scrollintoview.min.js"></script>
-    <script>
-    (function ($) {
-        $(function () {
-            $('[data-jcarousel]').each(function () {
-                var el = $(this);
-                el.jcarousel(el.data());
-            });
-
-            $('[data-jcarousel-control]').each(function () {
-                var el = $(this);
-                el.jcarouselControl(el.data());
-            });
-        });
-    })(jQuery);
-    </script>
 
     
     <div class="hospobanner">
