@@ -7,6 +7,13 @@
     <link rel="shortcut icon icon" href="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/AlphaIcon.png">
     <link href="Banner.css" type="text/css" rel="stylesheet">
     <link href="Gallery.css" type="text/css" rel="stylesheet">
+    <!--Includes-->
+    <script src="jquery.min.js"></script>
+    <script src="dist/jquery.jcarousel.min.js"></script>
+    <script src="dist/jquery.jcarousel-autoscroll.min.js"></script>
+    <script src="dist/jquery.jcarousel-control.min.js"></script>
+    <script src="dist/jquery.jcarousel-pagination.min.js"></script>
+    <script src="dist/jquery.jcarousel-scrollintoview.min.js"></script>
 </head>
 <body class="introduction">
 
@@ -27,129 +34,38 @@
     </nav>
 
     <!-- Differing code for each page goes here-->
-
-    <!-- Container for the image gallery -->
-    <div class="container">
-
-        <!-- Full-width images with number text -->
-        <div class="mySlides">
-            <div class="numbertext">1 / </div>
-            <img src="gallery/aikmans1.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">2 / </div>
-            <img src="gallery/aikmans2.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">3 / </div>
-            <img src="gallery/aikmans3.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">4 / </div>
-            <img src="gallery/aikmans4.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">5 / </div>
-            <img src="gallery/aikmans5.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">6 / </div>
-            <img src="gallery/aikmans6.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">7 / </div>
-            <img src="gallery/aikmans7.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">8 / </div>
-            <img src="gallery/aikmans8.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">9 / </div>
-            <img src="gallery/beretta1.jpg" style="width:100%">
-        </div>
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Image text -->
-        <div class="caption-container">
-            <p id="caption"></p>
-        </div>
-
-        <!-- Thumbnail images -->
-        <div class="row">
-            <div class="column">
-                <img class="demo cursor" src="gallery/aikmans1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="gallery/aikmans2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="gallery/aikmans3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="gallery/aikmans4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="gallery/aikmans5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="gallery/aikmans6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="gallery/aikmans7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Mountains and fjords">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="gallery/aikmans8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Mountains and fjords">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="gallery/beretta1.jpg" style="width:100%" onclick="currentSlide(9)" alt="Mountains and fjords">
-            </div>
-        </div>
+    <div class="carousel-wrapper">
+        <div data-jcarousel="true" data-wrap="circular" class="carousel">
+            <ul>
+                <li><img src="img1.jpg" width="600" height="400" alt=""></li>
+                <li><img src="img2.jpg" width="600" height="400" alt=""></li>
+                <li><img src="img3.jpg" width="600" height="400" alt=""></li>             
+                <li><img src="img4.jpg" width="600" height="400" alt=""></li>               
+                <li><img src="img5.jpg" width="600" height="400" alt=""></li>              
+                <li><img src="img6.jpg" width="600" height="400" alt=""></li>                
+            </ul>           
+        </div>        
+        <a data-jcarousel-control="true" data-target="-=1" href="#" class="carousel-control-prev">&lsaquo;</a>       
+        <a data-jcarousel-control="true" data-target="+=1" href="#" class="carousel-control-next">&rsaquo;</a>       
     </div>
 
     <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
+    (function ($) {
+        $(function () {
+            $('[data-jcarousel]').each(function () {
+                var el = $(this);
+                el.jcarousel(el.data());
+            });
 
-        // Next/previous controls
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        // Thumbnail image controls
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("demo");
-            var captionText = document.getElementById("caption");
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-            captionText.innerHTML = dots[slideIndex-1].alt;
-            }
+            $('[data-jcarousel-control]').each(function () {
+                var el = $(this);
+                el.jcarouselControl(el.data());
+            });
+        });
+    })(jQuery);
     </script>
 
+    
     <div class="hospobanner">
         <div class="column">
             <div class="venue fade">

@@ -1,85 +1,88 @@
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-    width: 75%;
+.carousel-wrapper {
+    margin: 20px auto;
     position: relative;
-    height: 500px;
-    margin: auto;
+    border: 10px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+    
 }
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-    cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-    cursor: pointer;
+.carousel-wrapper .photo-credits {
     position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+    
 }
 
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+.carousel-wrapper .photo-credits a {
+    color: #fff;
+   
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+
+/** <a href="https://www.jqueryscript.net/tags.php?/Carousel/">Carousel</a> **/
+ .carousel {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
+.carousel ul {
+    width: 20000em;
     position: absolute;
-    top: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
 }
 
-/* Container for image text */
-.caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Six columns side by side */
-.column {
+.carousel li {
     float: left;
-    /*width: 16.66%;*/
+   
 }
 
-/* Add a transparency effect for thumnbail images */
-.demo {
-    opacity: 0.6;
+42
+/** Carousel Controls **/
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+    
 }
 
-.active,
-.demo:hover {
-    opacity: 1;
+.carousel-control-prev {
+    left: -50px;
+    
+}
+
+.carousel-control-next {
+    right: -50px;
+    
+}
+
+.carousel-control-prev:hover span, .carousel-control-next:hover span {
+    display: block;
+    
 }
