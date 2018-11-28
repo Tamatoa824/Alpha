@@ -6,22 +6,22 @@
 	margin: 16px 0
 }
 
-	.container::after {
-		content: "";
-		clear: both;
-		display: table;
-	}
+.container::after {
+	content: "";
+	clear: both;
+	display: table;
+}
 
-	.container img {
-		float: left;
-		margin-right: 20px;
-		border-radius: 50%;
-	}
+.container img {
+	float: left;
+	margin-right: 20px;
+	border-radius: 50px;
+}
 
-	.container span {
-		font-size: 20px;
-		margin-right: 15px;
-	}
+.container span {
+	font-size: 20px;
+	margin-right: 15px;
+}
 
 @media (max-width: 500px) {
 	.container {
