@@ -54,8 +54,32 @@
             </fieldset>
         </form>
     </div>-->
+    <form>
 
-   
+        <select id="selectC">
+            <option onclick="show_form('noCandy1')">Lollipop</option>
+            <option onclick="show_form('noCandy2')">Haribo Gummies </option>
+            <option onclick="show_form('noCandy3')">Gum</option>
+        </select>
+
+        <div class="candy_form" id="noCandy1">
+            Form for Lollipops
+        </div>
+        <div class="candy_form" id="noCandy2">
+            Form for Haribo Gummies
+        </div>
+        <div class="candy_form" id="noCandy3">
+            Form for Gum.
+        </div>
+
+    </form>
+   <script>
+       function show_form(candy) {
+           document.getElementsByClassName('candy_form').style.display = 'none'; //Hide forms
+           document.getElementById(candy).style.display = 'block'; //Show desired form
+           return true;
+       }
+   </script>
    
 
     <div class="hospobanner">
