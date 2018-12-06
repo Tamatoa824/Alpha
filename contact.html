@@ -33,19 +33,20 @@
                 <legend>
                     Personal information:
                 </legend>
-                How may we help you?<br>
-                <select>
-                    <option value="Enquiry">Enquiry</option>
-                    <option value="Employment">Employment</option>
-                    <option value="Complaint">Complaint</option>
-                </select>
-                <br>
                 First name:<br>
                 <input type="text" name="firstname"><br>
                 Last name:<br>
                 <input type="text" name="lastname"><br>
                 Email address:<br>
                 <input type="email" name="email">
+                How may we help you?<br>
+                <select>
+                    <option onclick="show_form('enquiry')" value="Enquiry">Enquiry</option>
+                    <option onclick="show_form('employment')" value="Employment">Employment</option>
+                    <option onclick="show_form('complaint')" value="Complaint">Complaint</option>
+                </select>
+                <br>
+            <div class="enquiry"
             </fieldset>
             
             <fieldset>
@@ -62,13 +63,13 @@
             <option onclick="show_form('noCandy3')">Gum</option>
         </select>
 
-        <div class="candy_form" id="noCandy1">
+        <div class="noCandy1">
             Form for Lollipops
         </div>
-        <div class="candy_form" id="noCandy2">
+        <div class="noCandy2">
             Form for Haribo Gummies
         </div>
-        <div class="candy_form" id="noCandy3">
+        <div class"noCandy3">
             Form for Gum.
         </div>
 
