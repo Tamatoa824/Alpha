@@ -1,11 +1,11 @@
-/*.contactForm {
+.contactForm {
 	border: 2px solid #ccc;
 	background-color: #eee;
 	border-radius: 5px;
 	padding: 16px;
 	margin: 16px 0
-}*/
+}
 
-.noCandy1, .noCandy2, .noCandy3{
+.enquiry, .employment, .complaint{
 	display: none;
 }

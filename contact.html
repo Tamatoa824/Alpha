@@ -27,7 +27,7 @@
     </nav>
 
     <!-- Differing code for each page goes here-->
-    <!--<div class="contactForm">
+    <div class="contactForm">
         <form>
             <fieldset>
                 <legend>
@@ -40,40 +40,34 @@
                 Email address:<br>
                 <input type="email" name="email">
                 How may we help you?<br>
-                <select>
+                <select id="reason">
                     <option onclick="show_form('enquiry')" value="Enquiry">Enquiry</option>
                     <option onclick="show_form('employment')" value="Employment">Employment</option>
                     <option onclick="show_form('complaint')" value="Complaint">Complaint</option>
                 </select>
                 <br>
-            <div class="enquiry"
             </fieldset>
             
-            <fieldset>
-                <legend>Comments:</legend>
-                
-            </fieldset>
+            <div class="enquiry">
+                <fieldset>
+                    <legend>Enquiry:</legend>
+                    <input type="text" name="reason">
+                </fieldset>
+            </div>
+           <div class="employment">
+                <fieldset>
+                    <legend>Employment:</legend>
+                    <input type="text" name="reason">
+                </fieldset>
+           </div>
+          <div class="complaint">
+                <fieldset>
+                    <legend>Complaint:</legend>
+                    <input type="text" name="reason">
+                </fieldset>
+          </div>
         </form>
-    </div>-->
-    <form>
-
-        <select id="selectC">
-            <option onclick="show_form('noCandy1')">Lollipop</option>
-            <option onclick="show_form('noCandy2')">Haribo Gummies </option>
-            <option onclick="show_form('noCandy3')">Gum</option>
-        </select>
-
-        <div class="noCandy1">
-            Form for Lollipops
-        </div>
-        <div class="noCandy2">
-            Form for Haribo Gummies
-        </div>
-        <div class="noCandy3">
-            Form for Gum.
-        </div>
-
-    </form>
+    </div>
    <script>
        /*function show_form(candy) {
            //document.getElementsByClassName('candy_form').style.display = 'none'; //Hide forms
@@ -81,18 +75,18 @@
            
        }*/
        // Function to add event listener to table
-       var el = document.getElementById("selectC");
+       var el = document.getElementById("reason");
        el.addEventListener("change", function () {
-           var elems = document.querySelectorAll('.noCandy1,.noCandy2,.noCandy3')
+           var elems = document.querySelectorAll('.enquiry,.employment,.complaint')
            for (var i = 0; i < elems.length; i++) {
                elems[i].style.display = 'none'
            }
            if (this.selectedIndex === 0) {
-               document.querySelector('.noCandy1').style.display = 'block';
+               document.querySelector('.enquiry').style.display = 'block';
            } else if (this.selectedIndex === 1) {
-               document.querySelector('.noCandy2').style.display = 'block';
+               document.querySelector('.employment').style.display = 'block';
            } else if (this.selectedIndex === 2) {
-               document.querySelector('.noCandy3').style.display = 'block';
+               document.querySelector('.complaint').style.display = 'block';
            }
        }, false);
    </script>
