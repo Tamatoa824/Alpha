@@ -34,11 +34,11 @@
                     Personal information:
                 </legend>
                 First name:<br>
-                <input type="text" name="firstname"><br>
+                <input type="text" name="firstname" required><br>
                 Last name:<br>
                 <input type="text" name="lastname"><br>
                 Email address:<br>
-                <input type="email" name="email"><br>
+                <input type="email" name="email" required><br>
                 How may we help you?<br>
                 <select id="reason">
                     <option onclick="show_form('enquiry')" value="Enquiry">Enquiry</option>
@@ -51,19 +51,19 @@
             <div class="enquiry">
                 <fieldset>
                     <legend>Enquiry:</legend>
-                    <input type="text" name="reason" size="100">
+                    <input type="text" name="reason" width="50" height="100">
                 </fieldset>
             </div>
            <div class="employment">
                 <fieldset>
                     <legend>Employment:</legend>
-                    <input type="text" name="reason" size="200">
+                    <input type="text" name="reason"  width="150" height="200">
                 </fieldset>
            </div>
           <div class="complaint">
                 <fieldset>
                     <legend>Complaint:</legend>
-                    <input type="text" name="reason" size="300">
+                    <input type="text" name="reason"  width="250" height="300">
                 </fieldset>
           </div>
         </form>
