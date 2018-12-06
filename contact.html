@@ -74,11 +74,26 @@
 
     </form>
    <script>
-       function show_form(candy) {
+       /*function show_form(candy) {
            //document.getElementsByClassName('candy_form').style.display = 'none'; //Hide forms
            document.getElementById(candy).style.display = 'block'; //Show desired form
            
-       }
+       }*/
+       // Function to add event listener to table
+       var el = document.getElementById("selectC");
+       el.addEventListener("change", function () {
+           var elems = document.querySelectorAll('#noCandy1,#noCandy2,#noCandy3')
+           for (var i = 0; i < elems.length; i++) {
+               elems[i].style.display = 'none'
+           }
+           if (this.selectedIndex === 0) {
+               document.querySelector('#noCandy1').style.display = 'block';
+           } else if (this.selectedIndex === 1) {
+               document.querySelector('#noCandy2').style.display = 'block';
+           } else if (this.selectedIndex === 2) {
+               document.querySelector('#noCandy3').style.display = 'block';
+           }
+       }, false);
    </script>
    
 
