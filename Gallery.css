@@ -12,6 +12,7 @@
 .Gallerycontainer {
     width: 80%;
     border: 1px solid #ddd;
+    margin: auto;
 }
 .img{
     float:left;
