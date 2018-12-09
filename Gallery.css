@@ -9,7 +9,7 @@
         box-shadow: 0 0 2px 1px rgba(0, 140, 186, 3.5); /*box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);*/
     }
 .Gallerycontainer {
-    float: left;
+    
     width: 80%;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -24,7 +24,7 @@
 }
 /* Next & previous buttons */
 .prev, .next {
-    float: left;
+    height:160px;
     cursor: pointer;
     position: absolute;
     top: 50%;
