@@ -125,6 +125,10 @@
     color: white;
 }
 
+.row{
+    padding: 10px;
+}
+
 .row:after {
     content: "";
     display: table;
