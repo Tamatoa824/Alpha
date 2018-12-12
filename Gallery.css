@@ -42,10 +42,11 @@
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+    padding-left:5px;
 }
 .prev{
     left:0;
-
+    padding-right: 5px;
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
