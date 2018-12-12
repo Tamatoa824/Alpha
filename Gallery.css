@@ -16,6 +16,9 @@
     margin: auto;
     height: 160px;
     background-color: grey;
+    
+    transition: opacity 0.5s ease-out;
+    animation: moveSlideshow 60s linear infinite;
 }
 .img{
     float:left;
