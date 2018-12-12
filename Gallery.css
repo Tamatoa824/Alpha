@@ -136,6 +136,9 @@
     clear: both;
 }
 
+.img{
+    overflow:hidden;
+}
 /* Six columns side by side */
 .column {
     float: left;
