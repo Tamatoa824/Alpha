@@ -17,16 +17,14 @@
     height: 160px;
     background-color: grey;
     overflow: hidden;
+    transform: translate3d(0, 0, 0);
 }
-.img{
-    float:left;
-    
-    height:100%;
-
+.img {
+    float: left;
+    height: 100%;
     transition: opacity 0.5s ease-out;
     animation: moveSlideshow 60s linear infinite;
-   
-    
+    transform: translate3d(0, 0, 0);
 }
 /* Next & previous buttons */
 .prev, .next {
