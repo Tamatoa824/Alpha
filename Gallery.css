@@ -149,7 +149,7 @@
 
 /*TRIAL*/
 
-.tech-slideshow {
+/*.tech-slideshow {
     height: 200px;
     max-width: 800px;
     margin: 0 auto;
@@ -182,7 +182,7 @@
 
 .tech-slideshow:hover .mover-2 {
     opacity: 1;
-}
+}*/
 
 @keyframes moveSlideshow {
     100% {
