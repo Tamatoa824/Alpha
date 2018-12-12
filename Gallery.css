@@ -126,8 +126,9 @@
     color: white;
 }
 
-.row{
+.row {
     padding: 10px;
+    overflow: hidden;
 }
 
 .row:after {
@@ -143,11 +144,11 @@
 .column {
     float: left;
     width: 16.66%;
-    position:relative;
+    
 
     transition: opacity 0.5s ease-out;
     animation: moveSlideshow 60s linear infinite;
-    overflow: hidden;
+    
 }
 
 /* Add a transparency effect for thumnbail images */
