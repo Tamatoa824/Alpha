@@ -149,7 +149,7 @@
 
 /*TRIAL*/
 
-/*.tech-slideshow {
+.tech-slideshow {
     height: 200px;
     max-width: 800px;
     margin: 0 auto;
@@ -188,4 +188,4 @@
     100% {
         transform: translateX(-66.6666%);
     }
-}*/
+}
