@@ -20,7 +20,7 @@
 }
 .img{
     float:left;
-    width:25%;
+    
     height:100%;
 
     transition: opacity 0.5s ease-out;
