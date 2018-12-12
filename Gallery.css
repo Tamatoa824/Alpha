@@ -16,8 +16,7 @@
     margin: auto;
     height: 160px;
     background-color: grey;
-    
-    
+    overflow: hidden;
 }
 .img{
     float:left;
