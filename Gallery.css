@@ -55,6 +55,7 @@
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-color: white;
+    color: black;
 }
 .big{
     display: none;
@@ -145,7 +146,7 @@
 
     transition: opacity 0.9s ease-out;
     animation: moveSlideshow 60s linear infinite;
-    
+    animation-duration: infinite;
 }
 
 /* Add a transparency effect for thumnbail images */
