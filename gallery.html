@@ -77,6 +77,45 @@
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 
     </div>
+
+    <script>
+        var gallery = new Array("gallery/aikmans1.jpg", "gallery/aikmans2.jpg", "gallery/aikmans3.jpg", "gallery/aikmans4.jpg", "gallery/aikmans5.jpg", "gallery/aikmans6.jpg", "gallery/aikmans7.jpg","gallery/aikmans8.jpg", "gallery/beretta1.jpg", "gallery/beretta2.jpg", "gallery/beretta3.jpg", "gallery/craic1.jpg", "gallery/craic2.jpg", "gallery/cuban1.jpg", "gallery/cuban2.jpg", "gallery/elmwood1.jpg", "gallery/elmwood2.jpg", "gallery/empire1.jpg", "gallery/empire2.jpg", "gallery/empire3.jpg", "gallery/empire4.jpg", "gallery/finns1.jpg", "gallery/foundry1.jpg", "gallery/foundry3.jpg", "gallery/foundry4.jpg", "gallery/foundry5.jpg", "gallery/foundry6.jpg", "gallery/foundry7.jpg",)
+        var galleryLength = gallery.length();
+        var currentImg = 0;
+        var containerWidth = getContainerWidth("Gallerycontainer");
+        var imagesFit = 2; 
+        var arrayDiv = new Array();
+
+        function getContainerWidth(containerName) {
+            setTimeout(function () {
+                const style = window.getComputedStyle(document.getElementByClassName(containerName));
+                return style.width;
+            }, 100);
+        
+
+        }
+        function slide() {
+            if (currentImg >= galleryLength) {
+                currentImg = 0;
+            }
+            for (var i=0; i < galleryLength; i++) {
+                arrayDiv[i] = document.createElement('div');
+                arrayDiv[i].className = 'img';
+                var elemThumb = document.createElement('img');
+                elemThumb.setAttribute('src', gallery[i]);
+                elemThumb.setAttribute('width', '150');
+                elemThumb.className = 'thumb';
+                var elemBig = document.createElement('img');
+                elemBig.setAttribute('src', gallery[i]);
+                elemBig.className = 'big';
+                
+            }
+            //assign multiple locations of the slides container an image source
+            // add to currentImg the number of images displayed while the others are left invisible
+            //user clicks next or previous and depending on which selected the currentImg will in/decrement by number of images visible in the view
+        }
+       
+    </script>
     
     <!-- Container for the image gallery -->
     <div class="container">

@@ -2,7 +2,7 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: auto; /*150px;*/
+    width: 150px;
     height: auto
 }
 .thumb:hover {
@@ -45,7 +45,7 @@
 /* Position the "next button" to the right */
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    /*border-radius: 3px 0 0 3px;*/
     padding-left:5px;
 }
 .prev{
