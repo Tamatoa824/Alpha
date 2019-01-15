@@ -10,7 +10,7 @@
 }
 .Gallerycontainer {
     position: relative;
-    width: 100%;
+    width: 900px;
     border: 1px solid #ddd;
     border-radius: 4px;
     margin: auto;
@@ -201,4 +201,10 @@
     100% {
         transform: translateX(-66.6666%);
     }
+}
+
+/* under instruction of https://divisoup.com/how-to-create-a-scrolling-image-carousel-in-divi/ */
+
+.ds-carousel-section{
+
 }
