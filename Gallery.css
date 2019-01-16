@@ -28,7 +28,7 @@
 }
 /* Next & previous buttons */
 .prev, .next {
-    
+    visible: 
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -147,7 +147,7 @@
 
     transition: opacity 0.9s ease-out;
     animation: moveSlideshow 60s linear infinite;
-    animation-duration: infinite;
+    
 }
 
 /* Add a transparency effect for thumnbail images */
