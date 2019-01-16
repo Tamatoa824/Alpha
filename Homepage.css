@@ -17,6 +17,9 @@
     position: relative;
     height: 500px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 /* Hide the images by default */
