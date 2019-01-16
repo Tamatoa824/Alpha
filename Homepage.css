@@ -24,8 +24,6 @@
 /* Hide the images by default */
 .mySlides {
     display: none;
-    position:relative;
-    top: 25%;
 }
 
 .facebook{
