@@ -16,14 +16,13 @@
     width: 75%;
     position: relative;
     height: 500px;
+    display:block;
     margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
     display: none;
-    
-
 }
 
 .facebook{
