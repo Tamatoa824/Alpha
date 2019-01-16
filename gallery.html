@@ -79,12 +79,15 @@
     </div>
 
     <script>
-        var gallery = new Array("gallery/aikmans1.jpg", "gallery/aikmans2.jpg", "gallery/aikmans3.jpg", "gallery/aikmans4.jpg", "gallery/aikmans5.jpg", "gallery/aikmans6.jpg", "gallery/aikmans7.jpg","gallery/aikmans8.jpg", "gallery/beretta1.jpg", "gallery/beretta2.jpg", "gallery/beretta3.jpg", "gallery/craic1.jpg", "gallery/craic2.jpg", "gallery/cuban1.jpg", "gallery/cuban2.jpg", "gallery/elmwood1.jpg", "gallery/elmwood2.jpg", "gallery/empire1.jpg", "gallery/empire2.jpg", "gallery/empire3.jpg", "gallery/empire4.jpg", "gallery/finns1.jpg", "gallery/foundry1.jpg", "gallery/foundry3.jpg", "gallery/foundry4.jpg", "gallery/foundry5.jpg", "gallery/foundry6.jpg", "gallery/foundry7.jpg",)
+        var gallery = new Array("gallery/aikmans1.jpg", "gallery/aikmans2.jpg", "gallery/aikmans3.jpg", "gallery/aikmans4.jpg", "gallery/aikmans5.jpg", "gallery/aikmans6.jpg", "gallery/aikmans7.jpg", "gallery/aikmans8.jpg", "gallery/beretta1.jpg", "gallery/beretta2.jpg", "gallery/beretta3.jpg", "gallery/craic1.jpg", "gallery/craic2.jpg", "gallery/cuban1.jpg", "gallery/cuban2.jpg", "gallery/elmwood1.jpg", "gallery/elmwood2.jpg", "gallery/empire1.jpg", "gallery/empire2.jpg", "gallery/empire3.jpg", "gallery/empire4.jpg", "gallery/finns1.jpg", "gallery/foundry1.jpg", "gallery/foundry3.jpg", "gallery/foundry4.jpg", "gallery/foundry5.jpg", "gallery/foundry6.jpg", "gallery/foundry7.jpg", "gallery/foundry8.jpg", "gallery/foundry9.jpg", "gallery/foundry10.jpg", "gallery/foundry2017.jpg", "gallery/foundry2017ronaidcharity.jpg", "gallery/halo1.jpg", "gallery/harewood1.jpg", "gallery/hospo.jpg", "gallery/indian1.jpg", "gallery/louis1.jpg", "gallery/louis2.jpg", "gallery/louis2017.jpg", "gallery/louis2017jason.jpg", "gallery/mexicanos.jpg", "gallery/mexicanos2.jpg", "gallery/mexicanos3.jpg", "gallery/mexicanos4.jpg", "gallery/mgmt alpha.jpg", "gallery/piano1.jpg", "gallery/protocol1.jpg", "gallery/racers1.jpg", "gallery/random1.jpg", "gallery/random2.jpg", "gallery/random3.jpg", "gallery/random4.jpg", "gallery/random5.jpg", "gallery/robhalk.jpg", "gallery/rockstar.jpg", "gallery/ronald.jpg", "gallery/ronald2.jpg", "gallery/sprigandfern1.jpg", "gallery/tannery1.jpg", "gallery/tannery2.jpg", "gallery/tannery3.jpg", "gallery/tannery4.jpg", "gallery/teaparty1.jpg", "gallery/teaparty2.jpg", "gallery/training1.jpg", "gallery/training2.jpg", "gallery/training3.jpg", "gallery/trents1.jpg", "gallery/turf1.jpg", "gallery/turf2.jpg", "gallery/turf3.jpg" )
         var galleryLength = gallery.length();
         var currentImg = 0;
         var containerWidth = getContainerWidth("Gallerycontainer");
         var imagesFit = 2; 
         var arrayDiv = new Array();
+        var container = document.getElementById("Gallerycontainer");
+
+        
 
         function getContainerWidth(containerName) {
             setTimeout(function () {
@@ -108,6 +111,7 @@
                 var elemBig = document.createElement('img');
                 elemBig.setAttribute('src', gallery[i]);
                 elemBig.className = 'big';
+                container.appendChild(elemThumb)
                 
             }
             //assign multiple locations of the slides container an image source
@@ -271,7 +275,7 @@
             </div>
         </div>
         <div class="column">
-            <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/Hospo.jpg" alt="Hospitality member since 2016" style="width:100%; height:50%">
+            <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/Hospo.jpg" alt="Hospitality member since 2016" style="width:100%; height:30%">
         </div>
         <div class="column">
             <div class="venue1 fade">
