@@ -17,12 +17,14 @@
     position: relative;
     height: 500px;
     margin: auto;
-    vertical-align: bottom;
+    
 }
 
 /* Hide the images by default */
 .mySlides {
     display: none;
+    position: absolute;
+    bottom: 0;
 }
 
 .facebook{
