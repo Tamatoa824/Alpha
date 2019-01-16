@@ -16,9 +16,10 @@
     width: 75%;
     position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 500px;
     margin: auto;
-    
 }
 
 /* Hide the images by default */
