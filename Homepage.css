@@ -12,9 +12,6 @@
 
 /* Slideshow container */
 .slideshow-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: 5px solid white;
     width: 75%;
     position: relative;
