@@ -12,12 +12,12 @@
 
 /* Slideshow container */
 .slideshow-container {
-    border: 5px solid white;
-    width: 75%;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 5px solid white;
+    width: 75%;
+    position: relative;
     height: 500px;
     margin: auto;
 }
