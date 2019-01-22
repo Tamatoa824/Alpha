@@ -6,5 +6,6 @@
     padding: 10px;
     border: 5px solid red;
     position: relative;
+    width: 75%;
     margin: 0 auto;
 }
