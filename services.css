@@ -3,6 +3,7 @@
 }
 
 .service img {
+    border: 5px solid red;
     align-items: center;
     justify-content: center;
 }
