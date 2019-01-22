@@ -3,6 +3,7 @@
 }
 
 .service img {
+    padding: 10px;
     border: 5px solid red;
     align-items: center;
     justify-content: center;
