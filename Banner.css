@@ -76,6 +76,9 @@ body {
     .topnav a {
         float: left;
     }
+    .hospobanner{
+        height:250px;
+    }
 }
 
 .hospobanner{
