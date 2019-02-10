@@ -1,7 +1,7 @@
 /* Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
-    margin: 0 auto;
+    margin: auto;
     width: 90%;
     height: auto;
     padding: 100px 0 100px 0;
