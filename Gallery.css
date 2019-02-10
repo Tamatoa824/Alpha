@@ -14,6 +14,12 @@
 .mySlides {
     display: none;
 }
+    .mySlides img {
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 /* Next & previous buttons */
 .prev,
