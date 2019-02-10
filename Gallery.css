@@ -14,7 +14,17 @@
 .mySlides {
     display: none;
 }
-   
+    .mySlides img {
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 100%;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;
+    }
 
 /* Next & previous buttons */
 .prev,
