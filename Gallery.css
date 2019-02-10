@@ -2,7 +2,9 @@
 .container {
     position: relative;
     border: 5px solid red;
-    padding
+    width: 75%;
+    height: 450px;
+    margin: 0 auto;
 }
 
 /* Hide the images by default */
