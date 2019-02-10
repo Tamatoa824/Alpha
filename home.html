@@ -159,8 +159,13 @@
             </div>
         </div>
         <div class="column">
-            <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/Hospo.jpg" alt="Hospitality member since 2016" style="width:100%; height:33%; max-width: 550px; margin-left: auto; margin-right: auto; display: block">
-        </div>
+            <div class="venue2 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/Hospo.jpg" alt="Hospitality member since 2016" style="width:100%; height:33%; max-width: 550px; margin-left: auto; margin-right: auto; display: block">
+            </div>
+            <div class="venue2 fade">
+                <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/ronald.jpg" alt="Hospitality member since 2016" style="width:100%; height:33%; max-width: 550px; margin-left: auto; margin-right: auto; display: block">
+            </div>
+         </div>
         <div class="column">
             <div class="venue1 fade">
                 <img src="https://raw.githubusercontent.com/Tamatoa824/Alpha/gh-pages/venue/foundry.jpg" style="height: 100%; width: 100%; max-width: 350px; margin-left: auto; margin-right: auto; display: block;">
@@ -215,6 +220,7 @@
     <script>
         var slideIndex2 = 0;
         var slideIndex3 = 0;
+        var slideIndex4 = 0;
         showSlides2();
         showSlides3();
 
@@ -242,6 +248,18 @@
             if (slideIndex3 > slides3.length) { slideIndex3 = 1 }
             slides3[slideIndex3 - 1].style.display = "block";
             setTimeout(showSlides3, 4000); // Change image every 4 seconds
+        }
+
+        function showSlides4() {
+            var l;
+            var slides4 = document.getElementsByClassName("venue2");
+            for (l = 0; l < slides4.length; l++) {
+                slides4[l].style.display = "none";
+            }
+            slideIndex4++;
+            if (slideIndex4 > slides4.length) { slideIndex4 = 1 }
+            slides4[slideIndex4 - 1].style.display = "block";
+            setTimeout(showSlides4, 8000); // Change image every 4 seconds
         }
     </script>
 
