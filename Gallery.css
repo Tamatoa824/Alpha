@@ -6,7 +6,14 @@
     width: 75%;
     height: 600px;
     margin: auto;
+    text-align: center;
 }
+    .container:before {
+        content: '';
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
 
 /* Hide the images by default */
 .mySlides {
