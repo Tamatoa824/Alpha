@@ -20,6 +20,14 @@
     
 
 }
+@media screen and (max-width: 750px) {
+    .slideshow-container {
+        height: 200px;
+        width: 300px;
+    }
+
+}
+
 
 /* Hide the images by default */
 .mySlides {
