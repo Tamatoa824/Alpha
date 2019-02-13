@@ -12,7 +12,18 @@
     
 
 }
-
+.One {
+    height: 500px;
+    width: 500px;
+}
+.Two {
+    height: 350px;
+    width: 700px;
+}
+.Three {
+    height: 650px;
+    width: 500px;
+}
 
 
 @media screen and (max-width: 900px) {
