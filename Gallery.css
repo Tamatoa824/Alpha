@@ -69,13 +69,15 @@
         height: 200px;
         width: 300px;
     }
-    .numbertext{
-        display:none;
-    }
-    .galleryStatement {
-        text-size-adjust:90%;
+
+    .numbertext {
+        display: none;
     }
 
+    .galleryStatement {
+        text-size-adjust: 90%;
+    }
+}
 .galleryStatement {
     color: white;
     text-align: center;
