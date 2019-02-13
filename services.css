@@ -27,5 +27,19 @@
 
 
 @media screen and (max-width: 900px) {
+    .One {
+        height: 300px;
+        width: 300px;
+    }
+
+    .Two {
+        height: 150px;
+        width: 300px;
+    }
+
+    .Three {
+        height: 350px;
+        width: 200px;
+    }
 }
     
