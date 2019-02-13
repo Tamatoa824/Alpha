@@ -151,9 +151,10 @@
     <script>
         var slideIndex2 = 0;
         var slideIndex3 = 0;
+        var slideIndex4 = 0;
         showSlides2();
         showSlides3();
-
+        showSlides4();
 
 
         function showSlides2() {
@@ -178,6 +179,18 @@
             if (slideIndex3 > slides3.length) { slideIndex3 = 1 }
             slides3[slideIndex3 - 1].style.display = "block";
             setTimeout(showSlides3, 4000); // Change image every 4 seconds
+        }
+
+        function showSlides4() {
+            var l;
+            var slides4 = document.getElementsByClassName("venue2");
+            for (l = 0; l < slides4.length; l++) {
+                slides4[l].style.display = "none";
+            }
+            slideIndex4++;
+            if (slideIndex4 > slides4.length) { slideIndex4 = 1 }
+            slides4[slideIndex4 - 1].style.display = "block";
+            setTimeout(showSlides4, 8000); // Change image every 8 seconds
         }
     </script>
 
