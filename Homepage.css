@@ -72,9 +72,9 @@
     .open {
         padding: 25px 0;
     }
-
-    .slideshow-container {
-        height:200px;
+    .fb-page{
+        height: 200px;
+        width: 300px;
     }
 }
 
