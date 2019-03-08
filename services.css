@@ -1,8 +1,11 @@
+
+/*Alignment and text color for headings and paragraphs*/
 .headings,.paragraphs{
 	color: white;
     text-align: center;
 }
 
+/* image positionings and unique sizings for each image*/
 .service img{
     padding: 10px;
     display: block;
@@ -24,7 +27,7 @@
     width: 500px;
 }
 
-
+/* adjust the image sizes for the screen resolution */
 @media screen and (max-width: 900px) {
     .One {
         height: 300px;
