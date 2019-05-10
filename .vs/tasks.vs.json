@@ -5,6 +5,11 @@
       "taskName": "task-Homepage",
       "appliesTo": "Homepage.css",
       "type": "launch"
+    },
+    {
+      "taskName": "task-Hospo",
+      "appliesTo": "Hospo.jpg",
+      "type": "launch"
     }
   ]
 }
