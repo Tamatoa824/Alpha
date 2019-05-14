@@ -15,6 +15,11 @@
       "taskName": "task-Homepage",
       "appliesTo": "Homepage.css",
       "type": "launch"
+    },
+    {
+      "taskName": "task-services",
+      "appliesTo": "services.css",
+      "type": "launch"
     }
   ]
 }
