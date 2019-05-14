@@ -62,8 +62,8 @@ body {
     .topnav a {
         float: left;
     }
-    .hospobanner{
-        height:05px;
+    .hospobanner {
+        margin-bottom: -9px
     }
 }
 
