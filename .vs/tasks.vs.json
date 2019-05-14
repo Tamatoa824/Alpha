@@ -20,6 +20,11 @@
       "taskName": "task-services",
       "appliesTo": "services.css",
       "type": "launch"
+    },
+    {
+      "taskName": "task-contact",
+      "appliesTo": "contact.html",
+      "type": "launch"
     }
   ]
 }
