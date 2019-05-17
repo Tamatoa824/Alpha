@@ -10,8 +10,10 @@ body {
     border: 5px solid #8b7425;
 }
 
-p{
+p {
     font-size: 1em;
+    color: white;
+    text-align: center;
 }
 @media screen and (max-width: 750px){
     p {
