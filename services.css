@@ -1,6 +1,6 @@
 
 /*Alignment and text color for headings and paragraphs*/
-.headings,.paragraphs{
+.headings{
 	color: white;
     text-align: center;
 }
