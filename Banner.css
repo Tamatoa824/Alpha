@@ -103,7 +103,7 @@ p {
 }
 */
 .container img {
-   
+    display:block;
     margin:auto;/*margin-right: 40px;*/
     border-radius: 50%;
 }
