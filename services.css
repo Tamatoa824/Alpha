@@ -1,5 +1,7 @@
 
-
+.service{
+    text-align:left;
+}
 /* image positionings and unique sizings for each image*/
 .service img{
     padding: 10px;
