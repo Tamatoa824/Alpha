@@ -25,6 +25,11 @@
       "taskName": "task-contact",
       "appliesTo": "contact.html",
       "type": "launch"
+    },
+    {
+      "taskName": "task-home",
+      "appliesTo": "home.html",
+      "type": "launch"
     }
   ]
 }
