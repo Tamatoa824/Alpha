@@ -21,19 +21,12 @@ p {
     }
 }
 
-.TitleEng, .TitleMaori {
-    font-family: Georgia;
-    text-align: center;
+/*Alignment and text color for headings*/
+.headings {
     color: white;
+    text-align: center;
 }
 
-.TitleEng {
-    line-height: 0.8;
-}
-
-.TitleMaori {
-    line-height: 0.1;
-}
 /* Add a black background color to the top navigation */
 .topnav {
     float: none;
