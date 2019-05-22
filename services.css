@@ -4,8 +4,7 @@
 .service img{
     padding: 10px;
     float:left;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 5px;
     
 
 }
@@ -39,4 +38,9 @@
         width: 250px;
     }
 }
-    
+
+.service::after {
+    content: "";
+    clear: both;
+    display: table;
+}
