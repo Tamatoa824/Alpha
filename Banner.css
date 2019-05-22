@@ -96,12 +96,12 @@ p {
     margin: 16px 5px;
 }
 
-.container::after {
+/*.container::after {
     content: "";
     clear: both;
     display: table;
 }
-
+*/
 .container img {
     float: left;
     margin:auto;/*margin-right: 40px;*/
