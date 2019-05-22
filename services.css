@@ -3,7 +3,7 @@
 /* image positionings and unique sizings for each image*/
 .service img{
     padding: 10px;
-    display: block;
+    float:left;
     margin-left: auto;
     margin-right: auto;
     
