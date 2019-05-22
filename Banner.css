@@ -104,14 +104,10 @@ p {
 */
 .container img {
     display:block;
-    margin:auto;/*margin-right: 40px;*/
+    margin:auto;
     border-radius: 50%;
 }
 
-.container span {
-    font-size: 20px;
-    /*margin-right: 15px;*/
-}
 
 @media (max-width: 500px) {
     .container {
@@ -120,7 +116,6 @@ p {
 
     .container img {
         margin: auto;
-        float: none;
         display: block;
     }
 }
