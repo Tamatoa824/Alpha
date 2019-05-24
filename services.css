@@ -16,8 +16,8 @@
 }
 
 .One {
-    height: 500px;
-    width: 500px;
+    height: 400px; /*500,500*/
+    width: 400px;
 }
 .Two {
     height: 350px;
