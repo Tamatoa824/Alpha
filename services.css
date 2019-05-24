@@ -24,8 +24,8 @@
     width: 700px;
 }
 .Three {
-    height: 650px;
-    width: 500px;
+    height: 450px;    /*650,500*/
+    width: 300px;
 }
 
 /* adjust the image sizes for the screen resolution */
