@@ -4,6 +4,9 @@
     color:white;
 }
 
+.service p{
+    width: 25%;
+}
 
 /* image positionings and unique sizings for each image*/
 .service img {
