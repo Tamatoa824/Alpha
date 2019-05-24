@@ -1,15 +1,16 @@
 
 .service{
     text-align:left;
+    border: 5px solid red;
 }
 /* image positionings and unique sizings for each image*/
-.service img{
+.service img {
     padding: 10px;
-    float:left;
+    float: left;
     margin-right: 5px;
-    
-
+    border: 5px solid white;
 }
+
 .One {
     height: 500px;
     width: 500px;
