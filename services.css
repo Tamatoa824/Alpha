@@ -1,7 +1,6 @@
 
 .service p,.headings{
     text-align:left;
-    border: 5px solid red;
     color:white;
 }
 
@@ -11,7 +10,6 @@
     padding: 10px;
     float: left;
     margin-right: 5px;
-    border: 5px solid white;
 }
 
 .One {
