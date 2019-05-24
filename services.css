@@ -2,6 +2,7 @@
 .service p,.headings{
     text-align:left;
     border: 5px solid red;
+    color:white;
 }
 
 
