@@ -65,7 +65,7 @@
 }
 
 @media screen and (max-width: 750px) {
-    .container {
+    .galleryContainer {
         height: 200px;
         width: 300px;
     }
