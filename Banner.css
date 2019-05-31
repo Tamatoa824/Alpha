@@ -67,13 +67,13 @@ p {
 
 .hospobanner {
     width: 100%;
-    height: 200px;
+ 
 }
 
 .column {
     float: left;
     width: 20%;
-    height: 100%;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
