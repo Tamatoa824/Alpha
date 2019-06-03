@@ -29,7 +29,7 @@
 }
 
 /* adjust the image sizes for the screen resolution */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .One {
         height: 300px;
         width: 300px;
