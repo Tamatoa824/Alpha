@@ -13,8 +13,9 @@ body {
 p {
     font-size: 1em;
     color: white;
-    text-align: center;
-    justify-content:center;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 @media screen and (max-width: 750px){
     p {
