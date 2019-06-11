@@ -69,7 +69,13 @@
         height: 500px;
         width: 650px;
     }
-
+}
+@media screen and (max-width: 700px) {
+    /*.galleryContainer {
+        height: 400px;
+        width: 550px;
+    }
+*/
     .numbertext {
         display: none;
     }
