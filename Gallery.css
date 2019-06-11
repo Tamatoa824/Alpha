@@ -65,10 +65,10 @@
 }
 
 @media screen and (max-width: 800px) {
-    /*.galleryContainer {
-        height: 200px;
-        width: 300px;
-    }*/
+    .galleryContainer {
+        height: 500px;
+        width: 650px;
+    }
 
     .numbertext {
         display: none;
