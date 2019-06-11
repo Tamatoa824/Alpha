@@ -2,8 +2,8 @@
 .galleryContainer {
     display: block;
     position: relative;
-    width: 75%;
-    height: 60%;
+    width: 750px;
+    height: 600px;
     margin: auto;
     margin-bottom:50px;
 }
