@@ -81,6 +81,12 @@
         height: 300px;
         width: 450px;
     }
+}
+@media screen and (max-width: 500px) {
+    .galleryContainer {
+        height: 300px;
+        width: 450px;
+    }
 
     .numbertext {
         display: none;
