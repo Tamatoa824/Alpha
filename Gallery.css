@@ -71,11 +71,11 @@
     }
 }
 @media screen and (max-width: 705px) {
-    /*.galleryContainer {
+    .galleryContainer {
         height: 400px;
         width: 550px;
     }
-*/
+
     .numbertext {
         display: none;
     }
