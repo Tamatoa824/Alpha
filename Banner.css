@@ -10,23 +10,23 @@ body {
     border: 5px solid #8b7425;
 }
 
-p {
+.p {
     font-size: 1em;
     color: white;
     text-align: center;
 }
 @media screen and (max-width: 750px){
-    p {
+    .p {
         font-size: 0.875em;
     }
 }
 
 /*Alignment and text color for headings*/
-/*.headings {
+.headings {
     color: white;
     text-align: center;
 }
-*/
+
 /* Add a black background color to the top navigation */
 .topnav {
     float: none;
