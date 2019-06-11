@@ -64,16 +64,16 @@
     top: 0;
 }
 
-/*@media screen and (max-width: 750px) {
-    .galleryContainer {
+@media screen and (max-width: 750px) {
+    /*.galleryContainer {
         height: 200px;
         width: 300px;
-    }
+    }*/
 
     .numbertext {
         display: none;
     }
-}*/
+}
 .galleryStatement {
     margin-bottom:50px;
     
