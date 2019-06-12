@@ -25,11 +25,6 @@
         height: 200px;
         width: 300px;
     }
-
-    .open {
-        margin-bottom: 30px;
-    }
-
 }
 
 
@@ -74,7 +69,7 @@
 
 @media screen and (max-width: 600px) {
     .open {
-        padding: 25px 0;
+        margin-bottom: 30px;
     }
     .fb-frame{
         height: 200px;
