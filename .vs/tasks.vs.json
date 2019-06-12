@@ -30,6 +30,16 @@
       "taskName": "task-home",
       "appliesTo": "home.html",
       "type": "launch"
+    },
+    {
+      "taskName": "task-gallery",
+      "appliesTo": "gallery.html",
+      "type": "launch"
+    },
+    {
+      "taskName": "task-home",
+      "appliesTo": "home.html",
+      "type": "launch"
     }
   ]
 }
